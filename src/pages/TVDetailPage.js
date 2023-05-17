@@ -37,13 +37,13 @@ function TVDetailPage() {
         <>
           <div
             className="tv-banner"
-            // style={{
-            //   backgroundImage: tv?.backdrop_path
-            //     ? `url("https://image.tmdb.org/t/p/original/${tv?.backdrop_path}")`
-            //     : `url(http://www.movienewz.com/img/films/poster-holder.jpg)`,
-            //   backgroundSize: "cover",
-            //   backgroundPosition: "center center",
-            // }}
+            style={{
+              backgroundImage: tv?.backdrop_path
+                ? `url("https://image.tmdb.org/t/p/original/${tv?.backdrop_path}")`
+                : `url(http://www.movienewz.com/img/films/poster-holder.jpg)`,
+              backgroundSize: "cover",
+              backgroundPosition: "center center",
+            }}
           />
           <div className="tv-content-container">
             <img
