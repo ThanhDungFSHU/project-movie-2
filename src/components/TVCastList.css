@@ -1,0 +1,6 @@
+.tv-cast-list-container {
+  display: grid;
+  grid-row: auto;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 200px));
+  justify-content: center;
+}
