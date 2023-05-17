@@ -24,13 +24,13 @@ function NavBar() {
       <div className="nav-contents">
         <div className="nav-content-one">
           <Logo />
-          <NavLink to="/discover/movie" className={"link"}>
+          <NavLink to="/discover/movie" id="nav-content" className={"link"}>
             Movies
           </NavLink>
-          <NavLink to="/discover/tv" className={"link"}>
+          <NavLink to="/discover/tv" id="nav-content" className={"link"}>
             TV Shows
           </NavLink>
-          <NavLink to="/favorite" className={"link"}>
+          <NavLink to="/favorite" id="nav-content" className={"link"}>
             Your Favorites
           </NavLink>
         </div>

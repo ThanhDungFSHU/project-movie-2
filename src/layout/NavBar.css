@@ -21,6 +21,11 @@
   display: flex;
   align-items: center;
 }
+
+#nav-content:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+
 .nav-content-two {
   display: flex;
   justify-content: center;
