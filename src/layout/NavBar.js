@@ -37,7 +37,7 @@ function NavBar() {
 
         <div className="nav-content-two">
           <UserIcon className="user-icon" sx={{ width: "10px" }} />
-          <h2 className="user-profile">User</h2>
+          <h2 className="user-profile">FSHU</h2>
         </div>
       </div>
     </div>
