@@ -123,7 +123,7 @@ function MainHeader() {
             <Typography
               sx={{ fontWeight: "bold", color: "white", marginLeft: "10px" }}
             >
-              User
+              FSHU
             </Typography>
           </Box>
         </Toolbar>
